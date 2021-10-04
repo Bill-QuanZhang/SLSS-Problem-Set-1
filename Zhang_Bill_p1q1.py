@@ -43,4 +43,11 @@ questions = (
 score = 0
 
 # answer
-
+for question in questions:
+    input(question[0])
+    if input.lower().strip("?.,!") in question[1]:
+        score += 1
+        print("Nice work!")
+    else:
+        score += 0
+        print("Ah oh.")
