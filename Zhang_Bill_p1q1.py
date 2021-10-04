@@ -26,11 +26,11 @@ while not done:
 print("Let's start!")
 
 # Questions
-# answer_1 = input("What is the answer for 2^10?")
-# answer_2 = input("What is the color of cloud?")
-# answer_3 = input("")
-# answer_4 = input("")
-# answer_5 = input("")
+# answer_1 = input("What is the answer for 2^10?") --> 1024
+# answer_2 = input("What is the color of cloud?") --> white
+# answer_3 = input("What is the second prime number?") --> 3
+# answer_4 = input("Did the moon shine itself?") --> no
+# answer_5 = input("What is the pH for pure water?") --> 7
 
 # Scores
 score = 0
