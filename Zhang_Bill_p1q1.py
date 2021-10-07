@@ -54,7 +54,9 @@ for question in questions:
     time.sleep(2)
 
 # give out the answer
-print(f"Your final score is {score}!")
+percentage = int(score)*20
+print(f"Your final score is {score}!"
+      f"You got {percentage}%!")
 if score == 5:
     print("You did a perfect job!!!")
 elif score >= 3:
