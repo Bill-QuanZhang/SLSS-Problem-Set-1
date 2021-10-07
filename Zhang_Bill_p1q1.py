@@ -31,13 +31,13 @@ print("Let's start!")
 # answer_3 = input("What is the second prime number?") --> 3
 # answer_4 = input("Did the moon shine itself?") --> no
 # answer_5 = input("What is the pH for pure water?") --> 7
-questions = (
+questions = [
     ["What is the answer for 2^10?", ["1024"]],
     ["What is the color of cloud?",["white"]],
     ["What is the second prime number?",["3"]],
     ["Did the moon shine itself?",["n","no"]],
     ["What is the pH for pure water?",["7"]]
-)
+]
 
 # Scores
 score = 0
